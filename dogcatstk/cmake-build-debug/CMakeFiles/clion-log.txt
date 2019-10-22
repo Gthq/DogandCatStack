@@ -1,0 +1,4 @@
+"H:\clion\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Cpplearn\dogcatstk
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Cpplearn/dogcatstk/cmake-build-debug

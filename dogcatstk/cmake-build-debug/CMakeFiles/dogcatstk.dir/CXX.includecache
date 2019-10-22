@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cpplearn/dogcatstk/Pet.h
+string
+-
+utility
+-
+
+E:/Cpplearn/dogcatstk/cmake-build-debug/Cat.h
+../Pet.h
+E:/Cpplearn/dogcatstk/Pet.h
+
+E:/Cpplearn/dogcatstk/cmake-build-debug/Dog.h
+../Pet.h
+E:/Cpplearn/dogcatstk/Pet.h
+
+E:/Cpplearn/dogcatstk/cmake-build-debug/opt.h
+ctime
+-
+../Pet.h
+E:/Cpplearn/dogcatstk/Pet.h
+Cat.h
+E:/Cpplearn/dogcatstk/cmake-build-debug/Cat.h
+Dog.h
+E:/Cpplearn/dogcatstk/cmake-build-debug/Dog.h
+stack
+-
+
+E:/Cpplearn/dogcatstk/main.cpp
+iostream
+-
+Pet.h
+E:/Cpplearn/dogcatstk/Pet.h
+cmake-build-debug/opt.h
+E:/Cpplearn/dogcatstk/cmake-build-debug/opt.h
+cmake-build-debug/Cat.h
+E:/Cpplearn/dogcatstk/cmake-build-debug/Cat.h
+cmake-build-debug/Dog.h
+E:/Cpplearn/dogcatstk/cmake-build-debug/Dog.h
+
